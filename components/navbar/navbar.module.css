@@ -1,0 +1,71 @@
+.vectorIcon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.homeFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profileIcon,
+.vectorIcon1 {
+  position: relative;
+  width: 30px;
+  height: 30.91px;
+}
+.profileIcon {
+  width: 32px;
+  height: 32px;
+}
+.profileFrameChild {
+  position: relative;
+  border-top: 2px solid var(--corporate-orange-1);
+  box-sizing: border-box;
+  width: 35px;
+  height: 2px;
+}
+.profileFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.stateprofile {
+  top: 167px;
+  padding: var(--padding-8xs) 0;
+}
+.statedefault,
+.statehome,
+.stateprofile {
+  position: absolute;
+  left: 23px;
+  border-radius: var(--br-xl);
+  background-color: var(--corporate-blue-1);
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-31xl);
+}
+.statedefault {
+  top: 22px;
+  padding: 9px 0;
+}
+.statehome {
+  top: 94px;
+  padding: var(--padding-8xs) 0;
+}
+.navbarBlue {
+  position: relative;
+  border-radius: 5px;
+  border: 1px dashed #9747ff;
+  box-sizing: border-box;
+  width: 100%;
+  height: 232px;
+  overflow: hidden;
+}
